@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>European university of art</title>
+    <!-- подключаем шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- подключаем стили -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style_contacts.css">
+</head>
+<body class="page">
+    <!-- шапка страницы -->
+    <header class="page-header">
+        <div class="container">
+            <div class="page-header__row">
+                <!--логотип-->
+                <a href="../Диплом/index.html"><img class="page-header__logo" src="images/logo.svg" alt="European university of art"></a>
+                <!--меню сайта-->
+                <nav class="page-header__menu mainmenu">
+                    <ul class="mainmenu__list">
+                        <li class="mainmenu__item"><a href="../Диплом/about.html">About</a></li>
+                        <li class="mainmenu__item"><a href="../Диплом/academics.html">Academics</a></li>
+                        <li class="mainmenu__item"><a href="../Диплом/contacts.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--основной контент-->
+    <main>
+        <!--section-writing-->
+        <section class="section-writing">
+            <div class="container">
+                <div class="section-writing__row">
+                    <div class="section-writing__row-left">
+                        <h1>University in<br>more<br>country</h1>
+                        <p class="section-writing__year">2018</p>
+                        <ul class="section-writing__list">
+                            <li class="section-writing__item"><a href="#" onclick="openbox('box1'); return false">Tokyo</a></li>
+                            <li class="section-writing__item"><a href="#" onclick="openbox('box2'); return false">Amsterdam</a></li>
+                            <li class="section-writing__item"><a href="#" onclick="openbox('box3'); return false">Kiev</a></li>
+                            <li class="section-writing__item"><a href="#" onclick="openbox('box4'); return false">Bali</a></li>
+                            <li class="section-writing__item"><a href="#" onclick="openbox('box5'); return false">Krakow</a></li>
+                        </ul>
+                        <div class="section-writing__row-grid" id="box2" style="display: grid;">
+                            <div class="section-writing__row-item"><p id="to-copy">• 95 Plantage Muidergracht,Amsterdam<br>North Holandia</p></div>
+                            <button id="copy-button" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p id="to-copy1">• 31 9161 122 02 &nbsp; &nbsp; 31 9142 842 68</p></div>
+                            <button id="copy-button1" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p id="to-copy2">• 9:00 - 20:00 &nbsp; &nbsp; 11:00 - 16:00</p></div>
+                            <button id="copy-button2" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p class="weekday">mon - fri &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; saturday</p></div>
+                        </div>
+                        <div class="section-writing__row-grid" id="box1" style="display: none;">
+                            <div class="section-writing__row-item"><p id="to-copy">• 12-8 Ueno Park, Taito-ku,<br> TOKYO 110-8714 JAPAN</p></div>
+                            <button id="copy-button" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p id="to-copy1">• 35.71999185118 &nbsp; &nbsp; 139.77175755355753</p></div>
+                            <button id="copy-button1" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p id="to-copy2">• 10:00 - 17:00 &nbsp; &nbsp; 10:00 - 17:00</p></div>
+                            <button id="copy-button2" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p class="weekday">mon/cl - fri &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; saturday</p></div>
+                        </div>
+                        <div class="section-writing__row-grid" id="box3" style="display: none;">
+                            <div class="section-writing__row-item"><p id="to-copy">• Yevhena Konovaltsia St, 36<br> Kyiv, Ukraine, 01601</p></div>
+                            <button id="copy-button" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p id="to-copy1">• 50.427880595172624 &nbsp; &nbsp; 30.534521086444144</p></div>
+                            <button id="copy-button1" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p id="to-copy2">• 9:00 - 20:00 &nbsp; &nbsp; 9:00 - 16:00</p></div>
+                            <button id="copy-button2" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p class="weekday">mon - fri &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; saturday</p></div>
+                        </div>
+                        <div class="section-writing__row-grid" id="box4" style="display: none;">
+                            <div class="section-writing__row-item"><p id="to-copy">• Kota Denpasar, Bali 80235, Indonesia</p></div>
+                            <button id="copy-button" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p id="to-copy1">• -8.652365134242674  &nbsp; &nbsp; 115.2325427684838</p></div>
+                            <button id="copy-button1" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p id="to-copy2">• 9:00 - 16:00 &nbsp; &nbsp; 9:00 - 12:00</p></div>
+                            <button id="copy-button2" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p class="weekday">mon/cl - fri &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; saturday</p></div>
+                        </div>
+                        <div class="section-writing__row-grid" id="box5" style="display: none;">
+                            <div class="section-writing__row-item"><p id="to-copy">• plac Jana Matejki 13,<br>31-157 Kraków, Poland</p></div>
+                            <button id="copy-button" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p id="to-copy1">• 50.06657032638406  &nbsp; &nbsp; 19.94154926445299</p></div>
+                            <button id="copy-button1" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p id="to-copy2">• 6:00 - 22:00 &nbsp; &nbsp; 6:00 - 22:00</p></div>
+                            <button id="copy-button2" class="copybutton"><img src="images/contacts/copy.svg" alt="icon"></button>
+                            <div class="section-writing__row-item"><p class="weekday">mon - fri &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; saturday</p></div>
+                        </div>
+                    </div>
+                    <img  class="section-writing__right-image" src="images/contacts/photoRight.png" alt="image">
+                    <div class="section-writing__right-text">
+                        <ul class="section-writing__right-list">
+                            <li class="section-writing__right-item"><a href="https://www.paleisamsterdam.nl/en/">Royal Palace</a></li>
+                            <li class="section-writing__right-item"><a href="https://www.vangoghmuseum.nl/en">Van Gogh Museum</a></li>
+                            <li class="section-writing__right-item"><a href="https://www.rijksmuseum.nl/en">Rijksmuseum</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section-social-->
+        <section class="section-social">
+            <div class="container">
+                <ul class="section-social__row">
+                    <li class="section-social__item"><a href="#"><img src="images/contacts/be.svg" alt="social network"></a></li>
+                    <li class="section-social__item"><a href="#"><img src="images/contacts/face.svg" alt="social network"></a></li>
+                    <li class="section-social__item"><a href="#"><img src="images/contacts/goog.svg" alt="social network"></a></li>
+                    <li class="section-social__item"><a href="#"><img src="images/contacts/inst.svg" alt="social network"></a></li>
+                    <li class="section-social__item"><a href="#"><img src="images/contacts/link.svg" alt="social network"></a></li>
+                    <li class="section-social__item"><a href="#"><img src="images/contacts/redd.svg" alt="social network"></a></li>
+                    <li class="section-social__item"><a href="#"><img src="images/contacts/twitt.svg" alt="social network"></a></li>
+                </ul>
+            </div>
+        </section>        
+        <!--section-contact-->
+        <section class="section-contact">
+            <div class="container">
+                <div class="section-contact__row">
+                    <div class="section-contact__form-text">
+                        <h2>Lets study together</h2>
+                        <p class="section-contact__text">Apply for consideration  your resume, we’ll give you feedback. Note: the time of application is unlimited, if you are invited to the training you can study at any time</p>
+                        <div class="section-contact__image"><img src="images/formimage.svg" alt="image"></div>
+                    </div>
+                    <div class="section-contact__form form">
+                        <form action="\">
+                            <div class="form__filed">
+                                <input class="form__filed-input" type="text" placeholder="Name">
+                                <input class="form__filed-input" type="email" placeholder="Email">
+                                <textarea class="form__filed-textarea" type="text" placeholder="Type your message here"></textarea>
+                                <div class="form__filed-flex">
+                                    <button class="section-contact__actions button button--primary">submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--footer-->
+    <footer class="page-footer">
+        <div class="page-footer__columns">
+            <div class="columns-left">
+                <!--логотип-->
+                <a href="../Диплом/index.html"><img class="page-footer__logo" src="images/logofooter.svg" alt="European university of art"></a>
+                <!--список локаций-->
+                <nav class="page-footer__location">
+                    <ul class="location__list">
+                        <li class="location-item"><a href="../Диплом/contacts.html">Krakow</a></li>
+                        <li class="location-item"><a href="../Диплом/contacts.html">Amsterdam</a></li>
+                        <li class="location-item"><a href="../Диплом/contacts.html">Bali</a></li>
+                        <li class="location-item"><a href="../Диплом/contacts.html">Moscow</a></li>
+                        <li class="location-item"><a href="../Диплом/contacts.html">Kiev</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="columns-right">
+                <!--меню-->
+                <nav class="page-footer__menu">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="#">Facultyes</a></li>
+                        <li class="menu-item"><a href="#">Grants</a></li>
+                        <li class="menu-item"><a href="#">Dormitory</a></li>
+                        <li class="menu-item"><a href="../Диплом/about.html">About</a></li>
+                        <li class="menu-item"><a href="../Диплом/academics.html">Academics</a></li>
+                        <li class="menu-item"><a href="../Диплом/contacts.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="page-footer__links">
+                    <div class="left-links">
+                        <a href="!#">www.eurouniversity.com</a>
+                        <a href="!#">www.amsterdamunicity.com</a>
+                    </div>
+                    <img class="right-logo" src="images/logofooter2.svg" alt="logo">
+                </div>
+                <div class="page-footer__socialnet">
+                    <ul class="socialnet-list">
+                        <li class="socialnet-item"><a href="#"><img src="images/behanceicon.svg" alt="behance"></a></li>
+                        <li class="socialnet-item"><a href="#"><img src="images/facebookicon.svg" alt="facebook"></a></li>
+                        <li class="socialnet-item"><a href="#"><img src="images/instagramicon.svg" alt="instagram"></a></li>
+                        <li class="socialnet-item"><a href="#"><img src="images/redditicon.svg" alt="reddit"></a></li>
+                        <li class="socialnet-item"><a href="#"><img src="images/linkedinicon.svg" alt="linkedin"></a></li>
+                        <li class="socialnet-item"><a href="#"><img src="images/twittericon.svg" alt="twitter"></a></li>
+                        <li class="socialnet-item"><a href="#"><img src="images/googleicon.svg" alt="google"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/contacts.js"></script>
+</body>
+</html>
